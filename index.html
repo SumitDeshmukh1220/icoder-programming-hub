@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>iCoder — Heaven for Programmers</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg icoder-nav fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <span class="brand-i">i</span>Coder
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="tutorials.html">Tutorials</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <button class="btn btn-outline-accent btn-sm" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-accent btn-sm" data-bs-toggle="modal" data-bs-target="#SignUpModal">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="LoginModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content icoder-modal">
+        <div class="modal-header border-0">
+          <h5 class="modal-title">Login to <span class="text-accent">iCoder</span></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body px-4 pb-4">
+          <div class="mb-3">
+            <label class="form-label small text-muted">Email address</label>
+            <input type="email" class="form-control icoder-input" placeholder="you@example.com">
+          </div>
+          <div class="mb-4">
+            <label class="form-label small text-muted">Password</label>
+            <input type="password" class="form-control icoder-input" placeholder="••••••••">
+          </div>
+          <button class="btn btn-accent w-100">Login</button>
+          <p class="text-center mt-3 small text-muted">Don't have an account? <a href="#" class="text-accent" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#SignUpModal">Sign up</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SignUp Modal -->
+  <div class="modal fade" id="SignUpModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content icoder-modal">
+        <div class="modal-header border-0">
+          <h5 class="modal-title">Join <span class="text-accent">iCoder</span></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body px-4 pb-4">
+          <div class="mb-3">
+            <label class="form-label small text-muted">Email address</label>
+            <input type="email" class="form-control icoder-input" placeholder="you@example.com">
+          </div>
+          <div class="mb-3">
+            <label class="form-label small text-muted">Password</label>
+            <input type="password" class="form-control icoder-input" placeholder="••••••••">
+          </div>
+          <div class="mb-4">
+            <label class="form-label small text-muted">Confirm Password</label>
+            <input type="password" class="form-control icoder-input" placeholder="••••••••">
+          </div>
+          <button class="btn btn-accent w-100">Create Account</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-grid-bg"></div>
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-7">
+          <div class="hero-tag mb-3">
+            <span class="tag-badge"><i class="fa-solid fa-terminal me-2"></i>Heaven for Programmers</span>
+          </div>
+          <h1 class="hero-title">Code.<br><span class="text-accent">Learn.</span><br>Build.</h1>
+          <p class="hero-sub mt-4">Your go-to hub for programming tutorials, tech news, and developer resources. Built by developers, for developers.</p>
+          <div class="d-flex gap-3 mt-5 flex-wrap">
+            <a href="tutorials.html" class="btn btn-accent btn-lg">Explore Tutorials</a>
+            <a href="about.html" class="btn btn-outline-accent btn-lg">Meet the Team</a>
+          </div>
+          <div class="hero-stats mt-5 d-flex gap-4 flex-wrap">
+            <div class="stat-item">
+              <span class="stat-num">50+</span>
+              <span class="stat-label">Tutorials</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">10K+</span>
+              <span class="stat-label">Readers</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Topics</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-flex justify-content-center">
+          <div class="hero-code-card">
+            <div class="code-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="code-filename ms-2">welcome.js</span>
+            </div>
+            <pre class="code-body"><code><span class="c-purple">const</span> <span class="c-blue">icoder</span> = {
+  <span class="c-green">mission</span>: <span class="c-orange">"Empower devs"</span>,
+  <span class="c-green">topics</span>: [
+    <span class="c-orange">"Web Dev"</span>,
+    <span class="c-orange">"Data Science"</span>,
+    <span class="c-orange">"AI & ML"</span>,
+    <span class="c-orange">"DSA"</span>
+  ],
+  <span class="c-green">start</span>: () <span class="c-purple">=></span> {
+    <span class="c-blue">console</span>.<span class="c-yellow">log</span>(
+      <span class="c-orange">"Let's code! 🚀"</span>
+    );
+  }
+};
+
+icoder.<span class="c-yellow">start</span>();</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Topics Strip -->
+  <section class="topics-strip py-4">
+    <div class="container">
+      <div class="d-flex gap-3 flex-wrap justify-content-center">
+        <span class="topic-chip"><i class="fa-brands fa-html5"></i> HTML & CSS</span>
+        <span class="topic-chip"><i class="fa-brands fa-js"></i> JavaScript</span>
+        <span class="topic-chip"><i class="fa-brands fa-python"></i> Python</span>
+        <span class="topic-chip"><i class="fa-solid fa-database"></i> SQL</span>
+        <span class="topic-chip"><i class="fa-solid fa-robot"></i> AI & ML</span>
+        <span class="topic-chip"><i class="fa-solid fa-code-branch"></i> DSA</span>
+        <span class="topic-chip"><i class="fa-brands fa-git-alt"></i> Git</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Posts -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="section-label mb-2">Latest Articles</div>
+      <h2 class="section-title mb-5">Fresh from the <span class="text-accent">Blog</span></h2>
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="post-card featured-post h-100">
+            <img src="code1.jpg" alt="Coding" class="post-img">
+            <div class="post-body">
+              <span class="post-tag">Web Dev</span>
+              <h3 class="post-title">Mastering CSS Grid & Flexbox in 2025</h3>
+              <p class="post-excerpt">A complete guide to modern layout techniques every front-end developer must know.</p>
+              <div class="post-meta">
+                <img src="about2.webp" class="author-avatar" alt="Sumit">
+                <span class="author-name">Sumit Deshmukh</span>
+                <span class="post-date ms-auto">Jan 15, 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row g-4">
+            <div class="col-12">
+              <div class="post-card small-post">
+                <img src="main1.jpg" alt="" class="post-img-sm">
+                <div class="post-body-sm">
+                  <span class="post-tag">Python</span>
+                  <h5 class="post-title-sm">Python for Data Science — A Beginner's Roadmap</h5>
+                  <div class="post-meta mt-2">
+                    <span class="author-name">Sumit Deshmukh</span>
+                    <span class="post-date ms-auto">Feb 3, 2025</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="post-card small-post">
+                <img src="main2.jpg" alt="" class="post-img-sm">
+                <div class="post-body-sm">
+                  <span class="post-tag">JavaScript</span>
+                  <h5 class="post-title-sm">Top 10 JavaScript Tips Every Dev Should Know</h5>
+                  <div class="post-meta mt-2">
+                    <span class="author-name">Sumit Deshmukh</span>
+                    <span class="post-date ms-auto">Mar 10, 2025</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="post-card small-post">
+                <img src="main4.jpg" alt="" class="post-img-sm">
+                <div class="post-body-sm">
+                  <span class="post-tag">AI & ML</span>
+                  <h5 class="post-title-sm">Getting Started with Machine Learning using Scikit-learn</h5>
+                  <div class="post-meta mt-2">
+                    <span class="author-name">Sumit Deshmukh</span>
+                    <span class="post-date ms-auto">Apr 5, 2025</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <a href="blog.html" class="btn btn-outline-accent">View All Articles →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why iCoder -->
+  <section class="section-pad why-section">
+    <div class="container">
+      <div class="section-label mb-2">Why iCoder?</div>
+      <h2 class="section-title mb-5">Built for <span class="text-accent">Real Developers</span></h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+            <h5>Fast & Practical</h5>
+            <p>No fluff. Every tutorial is direct, hands-on, and gets you building real things fast.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <h5>All Skill Levels</h5>
+            <p>From your very first HTML tag to advanced system design — we've got content for everyone.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
+            <h5>Community Driven</h5>
+            <p>Built by developers who actually code. Real-world experience, not textbook theory.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="section-pad newsletter-section">
+    <div class="container">
+      <div class="newsletter-box">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <span class="section-label mb-2 d-block">Stay Updated</span>
+            <h3 class="newsletter-title">Get weekly coding tips <br>in your inbox 📬</h3>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex gap-2">
+              <input type="email" class="form-control icoder-input" placeholder="your@email.com">
+              <button class="btn btn-accent px-4">Subscribe</button>
+            </div>
+            <p class="small text-muted mt-2">No spam. Unsubscribe anytime.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="icoder-footer">
+    <div class="container">
+      <div class="row g-4 mb-5">
+        <div class="col-lg-4">
+          <a class="footer-brand" href="index.html"><span class="brand-i">i</span>Coder</a>
+          <p class="footer-desc mt-3">Heaven for programmers. Learn, build, and grow your coding skills with tutorials, tips, and tech news.</p>
+          <div class="social-links mt-3">
+            <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer-heading">Pages</h6>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer-heading">Topics</h6>
+          <ul class="footer-links">
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Python</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">AI & ML</a></li>
+            <li><a href="#">Data Science</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h6 class="footer-heading">About the Developer</h6>
+          <div class="dev-card">
+            <div class="dev-avatar-wrap">
+              <img src="about2.webp" class="dev-avatar" alt="Sumit Deshmukh">
+            </div>
+            <div>
+              <strong>Sumit Deshmukh</strong>
+              <p class="small text-muted mb-0">Data Analyst & Web Developer<br>Pune, Maharashtra 🇮🇳</p>
+              <a href="https://github.com/SumitDeshmukh1220" class="small text-accent" target="_blank"><i class="fa-brands fa-github me-1"></i>SumitDeshmukh1220</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 iCoder · Crafted with ❤️ by <strong>Sumit Deshmukh</strong></p>
+        <div class="d-flex gap-3">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
