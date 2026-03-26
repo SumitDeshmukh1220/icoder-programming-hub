@@ -18,7 +18,7 @@ This project was built entirely from scratch during my **final year of graduatio
 ![image altr](https://github.com/SumitDeshmukh1220/icoder-programming-hub/blob/149cc0236195b71522bd426e4ec4b67bf37923c4/Homepage.png)
 
 ## -----AboutPAGE
-![image altr]()
+![image altr](https://github.com/SumitDeshmukh1220/icoder-programming-hub/blob/6ebe84d4b26d2935854aab2ea69a6bfddff0ff11/About.png)
 
 ## -----CONTACTPAGE
 ![image altr]()
