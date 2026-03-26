@@ -8,9 +8,23 @@
 
 **iCoder** is a fully responsive, multi-page programming education website designed as a go-to hub for developers and learners. It features tutorials, blog articles, developer profiles, and a contact form — all wrapped in a sleek dark-themed UI.
 
-This project was built entirely from scratch during my **final year of graduation (B.Sc. / MCA)**, using knowledge picked up through **YouTube tutorials**, self-learning, and a lot of trial and error. 🙌 It's a testament to what you can build when you're genuinely passionate about coding.
+This project was built entirely from scratch during my **final year of graduation (B.Sc.computer science)**, using knowledge picked up through **YouTube tutorials**, self-learning, and a lot of trial and error. 🙌 It's a testament to what you can build when you're genuinely passionate about coding.
 
 ---
+
+## 📸 Screenshots
+
+## -----HOMEPAGE
+![image altr]()
+
+## -----AboutPAGE
+![image altr]()
+
+## -----CONTACTPAGE
+![image altr]()
+
+## -----LOGINPAGE
+![image altr]()
 
 ## 🚀 Live Pages
 
@@ -51,31 +65,6 @@ This project was built entirely from scratch during my **final year of graduatio
 
 ---
 
-## 📁 Project Structure
-
-```
-iCoder/
-│
-├── index.html          # Homepage
-├── about.html          # About & Developer Profile
-├── tutorials.html      # Tutorials with filter
-├── blog.html           # Blog articles
-├── contact.html        # Contact form
-├── style.css           # All custom styles (CSS variables, components)
-├── script.js           # Shared JavaScript (navbar, scroll reveal, skill bars)
-│
-├── about2.webp         # Developer photo
-├── about4.avif         # About section images
-├── about5.avif
-├── about6.avif
-├── code1.jpg           # Blog/post images
-├── main1.jpg
-├── main2.jpg
-└── main4.jpg
-```
-
----
-
 ## 🎓 My Learning Journey
 
 This project holds a special place in my heart. 💙
@@ -83,9 +72,9 @@ This project holds a special place in my heart. 💙
 I'm **Sumit Deshmukh**, an MCA student from **MIT Arts, Commerce & Science College, Alandi, Pune**. During my **final year of graduation**, I decided to go beyond the classroom and build something real.
 
 I learned **HTML, CSS, JavaScript, and Bootstrap** primarily through:
-- 📺 YouTube tutorials (channels on web dev & frontend design)
+- 📺 YouTube tutorials 
 - 🔨 Hands-on practice — breaking things and fixing them
-- 📖 Documentation (MDN, Bootstrap docs, Stack Overflow)
+- 📖 Documentation (Bootstrap docs, Stack Overflow)
 
 iCoder started as a small HTML page and grew into a full multi-page website. Every section — from the hero code card animation to the scroll-reveal effects — was a new lesson learned. 🚀
 
@@ -124,19 +113,9 @@ iCoder started as a small HTML page and grew into a full multi-page website. Eve
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots of your pages here once deployed!
-
-```
-Homepage → About → Tutorials → Blog → Contact
-```
-
----
-
 ## 🔧 Getting Started
 
-No build tools or npm needed! Just clone and open. 🎉
+Just clone and open. 🎉
 
 ```bash
 # 1. Clone the repository
@@ -159,12 +138,6 @@ cd iCoder
 - 🎨 Bootstrap team for the amazing component library
 - 🌐 Font Awesome for the icon set
 - 💡 The dev community on Stack Overflow & MDN for answering every weird bug I ran into
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
